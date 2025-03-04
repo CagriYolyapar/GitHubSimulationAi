@@ -1,5 +1,5 @@
 name: Trigger AI Analysis
-
+#testtir
 on:
   workflow_dispatch:  # ✅ Manuel çalıştırma aktif
   push:

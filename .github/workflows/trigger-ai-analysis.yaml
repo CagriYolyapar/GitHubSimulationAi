@@ -2,8 +2,8 @@ name: Trigger AI Analysis
 #testtir
 on:
   push:
-    #branches:
-     # - main  # 🔥 Ana projeye push yapılınca çalışsın
+    branches:
+      - master  # 🔥 Ana projeye push yapılınca çalışsın
   workflow_dispatch:  # ✅ Manuel çalıştırma aktif
   
 jobs:

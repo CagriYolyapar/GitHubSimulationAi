@@ -1,11 +1,11 @@
 name: Trigger AI Analysis
 #testtir
 on:
-  workflow_dispatch:  # ✅ Manuel çalıştırma aktif
   push:
-    branches:
-      - 'main'  # 🔥 Ana projeye push yapılınca çalışsın
-
+    #branches:
+     # - main  # 🔥 Ana projeye push yapılınca çalışsın
+  workflow_dispatch:  # ✅ Manuel çalıştırma aktif
+  
 jobs:
   trigger_analysis:
     runs-on: ubuntu-latest

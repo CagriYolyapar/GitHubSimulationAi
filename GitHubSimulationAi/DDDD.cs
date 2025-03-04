@@ -9,5 +9,6 @@ namespace GitHubSimulationAi
     class DDDD
     {
         //Yorum satırı eklendi
+        //Deneme
     }
 }
